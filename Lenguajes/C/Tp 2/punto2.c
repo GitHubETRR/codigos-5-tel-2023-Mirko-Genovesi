@@ -9,7 +9,7 @@ void get_string(char user_string[999]){
 
 void min_to_mayus(char str[999]){
     for (int i=0; str[i]; i++){
-        if(97 <= str[i] <= 122) str[i] -= 32;
+        if(97 <= str[i] && str[i] <= 122) str[i] -= 32;
     }
 }
 
